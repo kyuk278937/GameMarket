@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* білий колір фону */
+    color: #000; /* чорний колір тексту */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    width: 45%; /* ширина контейнера зображенням */
+}
+
+.images img {
+    width: 100%; /* розтягнути зображення на весь доступний простір */
+    display: block; /* усунення проміжного простору */
+    margin-bottom: 20px; /* проміжок між зображенням та текстом */
+}
+
+.content {
+    width: 45%; /* ширина контейнера з текстом */
+}
+
+.text {
+    margin-left: auto; /* автоматичний відступ від лівого краю */
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
