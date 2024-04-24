@@ -1,0 +1,12 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    font-size: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div {
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+}
