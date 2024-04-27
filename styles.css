@@ -1,75 +1,92 @@
+/* палфіра кольорів https://color.romanuke.com/tsvetovaya-palitra-2003/ */
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff; /* білий колір фону */
-    color: #000; /* чорний колір тексту */
+    background-color: #ebe8e3;
+    color: #000;
     margin: 0;
     padding: 0;
     font-family: Pixelify Sans;
 }
 
-.container {
+.streem {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .images {
-    width: 45%; /* ширина контейнера зображенням */
+    width: 45%;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.screen_shots {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.screen_shots img {
+    width: auto;
+    height: 100%;
+    margin-right: 10px;
 }
 
 .images img {
-    width: auto; /* розтягнути зображення на весь доступний простір */
-    height: 500px;
-    display: block; /* усунення проміжного простору */
-    margin-bottom: 20px; /* проміжок між зображенням та текстом */
+    width: auto;
+    height: 100%;
+    display: block;
 }
 
-.content {
-    width: 45%;
-    /* ширина контейнера з текстом */
-}
-
-.text {
-    margin-left: auto; /* автоматичний відступ від лівого краю */
-}
-
-.image {
+.post {
+    width: 100%;
+    align-items: center;
+    background-color: #e4e1d8;
     margin-bottom: 20px;
-    height: 500px;
+}
+
+.description {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.post {
+    display: flex;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 26px;
     margin-bottom: 5px;
+    color: #222020;
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-a {
-    color: #000;
-    text-decoration: none;
+    color: #222020;
 }
 
 .black-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3d3939;
     color: white;
-    text-decoration: none; /* Забираємо підкреслення посилання */
-    border: 2px solid gray; /* Додаємо обводку */
-    outline: none; /* Забираємо контур кнопки при фокусуванні */
-    transition: background-color 0.3s, border-color 0.3s; /* Плавна зміна кольору при наведенні */
-    margin: 5px; /* Відступ від інших об'єктів */
+    text-decoration: none;
+    border: 2px solid #222020;
+    outline: none;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin: 5px;
 }
 
-/* Стилі для кнопки при наведенні курсору */
 .black-button:hover {
-    background-color: #333; /* Темновата версія чорного */
-    border-color: #999; /* Сірий колір обводки */
+    background-color: #333;
+    border-color: #999;
 }
